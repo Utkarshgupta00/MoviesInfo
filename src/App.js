@@ -26,7 +26,6 @@ const App = () =>{
             <div className = "center">
             <div className = "search center">
                 <input placeholder="Search A Movie Name Bhaya"
-                autocomplete ="on"
                 value = {searchTerm}
                 onChange={(e)=>setsearchTerm(e.target.value)}
                 />
